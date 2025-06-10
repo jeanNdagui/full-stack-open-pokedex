@@ -10,3 +10,10 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello World!"
+
+  now_it_is_job:
+    runs-on: ubtuntu-latest
+    steps:
+      - name: Now it is
+        run: |
+          date
